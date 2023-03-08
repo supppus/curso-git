@@ -41,6 +41,9 @@
 	<li>
 		git pull # Puxa todos os dados do servidor, para ter certeza que esta sincronizado e enviar dados faltantes
 	</li>
+	<li>
+		git checkout -b ...branchAleatoriaParaGerar ...branchPrincipal # Criar uma branch temporaria com base em cima de outra branch principal
+	</li>
 </ul>
 
 <br/>
