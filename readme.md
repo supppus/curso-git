@@ -35,10 +35,17 @@
 	<li>
 		git checkout ...nome # Muda de uma branch para outra
 	</li>
+	<li>
+		git merge ...branchName # Ex: Mudar de staging para master, vou para a master com o checkout e dou esse comando se referindo ao staging
+	</li>
 </ul>
 
 <br/>
 
 <p>
 	Utilizamos o conceito de branch, da seguinte forma, imagine onde tenha uma area de codigos estaveis, funcionando corretamente e uma branch onde contem codigos novos que ainda passarao por testes antes de ir para a branch estavel e seguir para producao. Entao utilizamos o conceito de merge, que passa um codigo da branch instavel para estavel!
+</p>
+
+<p>
+	*Um alerta seria que antes de enviar, vc precisa puxar os arquivos do servidor para a maquina local, para ter certeza de unir o codigo nas versoes mais atuais possiveis*
 </p>
