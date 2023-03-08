@@ -18,5 +18,18 @@
 		git add . # Adiciona todos os arquivos faltantes que nao foram adicionados
 	</li>
 
+	<li>
+		git reflog # Veja todas as versoes
+	</li>
 
+	<li>
+		git commit -m "your text" # Info sobre oque foi adicionado na versao
+	</li>
+	<li>
+		git push # Envia o codigo
+	</li>
+
+	<li>
+		
+	</li>
 </ul>
