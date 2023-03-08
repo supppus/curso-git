@@ -36,7 +36,10 @@
 		git checkout ...nome # Muda de uma branch para outra
 	</li>
 	<li>
-		git merge ...branchName # Ex: Mudar de staging para master, vou para a master com o checkout e dou esse comando se referindo ao staging
+		git merge ...branchName # Ex: Mudar de staging para master, vou para a master com o checkout e dou esse comando se referindo ao staging, para puxar as informacoes do servidor, utilize o pull
+	</li>
+	<li>
+		git pull # Puxa todos os dados do servidor, para ter certeza que esta sincronizado e enviar dados faltantes
 	</li>
 </ul>
 
@@ -47,5 +50,5 @@
 </p>
 
 <p>
-	*Um alerta seria que antes de enviar, vc precisa puxar os arquivos do servidor para a maquina local, para ter certeza de unir o codigo nas versoes mais atuais possiveis*
+	*Um alerta seria que antes de enviar, vc precisa puxar os arquivos do servidor para a maquina local, para ter certeza de unir o codigo nas versoes mais atuais possiveis, por isso utilize o PULL*
 </p>
