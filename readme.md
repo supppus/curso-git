@@ -32,6 +32,9 @@
 	<li>
 		git branch # Lista todas as branchs disponiveis
 	</li>
+	<li>
+		git checkout ...nome # Muda de uma branch para outra
+	</li>
 </ul>
 
 <br/>
