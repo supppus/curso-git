@@ -50,5 +50,36 @@
 </p>
 
 <p>
-	*Um alerta seria que antes de enviar, vc precisa puxar os arquivos do servidor para a maquina local, para ter certeza de unir o codigo nas versoes mais atuais possiveis, por isso utilize o PULL*
+	Um alerta seria que antes de enviar, vc precisa puxar os arquivos do servidor para a maquina local, para ter certeza de unir o codigo nas versoes mais atuais possiveis, por isso utilize o PULL, segue o exemplo a seguir;
 </p>
+
+<br/>
+
+### Git Pull
+
+<ol>
+	<li>
+		git pull da branch principal
+	</li>
+	<li>
+		gerar uma nova branch a partir da branch principal
+	</li>
+	<li>
+		trabalhar e adicionar novas funcionalidades na nova branch que criou
+	</li>
+	<li>
+		finalizar o trabalho na branch principal
+	</li>
+	<li>
+		git checkout na branch principal
+	</li>	
+	<li>
+		git pull
+	</li>
+	<li>
+		Mergiar (unir) o codigo da branch temporaria com a branch principal
+	</li>
+	<li>
+		git push na branch principal
+	</li>
+</ol>
