@@ -32,6 +32,9 @@
 	<li>
 		git branch # Lista todas as branchs disponiveis
 	</li>
+	<li>
+		git branch ...nome # cria uma branch, o nome comum para uma branch instavel eh staging	
+	</li>
 </ul>
 
 <br/>
