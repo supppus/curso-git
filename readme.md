@@ -29,4 +29,13 @@
 	<li>
 		git reset --hard <id da versao> # Adiciona nos seus arquivos locais uma Y versao do reflog		
 	</li>
+	<li>
+		git branch # Lista todas as branchs disponiveis
+	</li>
 </ul>
+
+<br/>
+
+<p>
+	Utilizamos o conceito de branch, da seguinte forma, imagine onde tenha uma area de codigos estaveis, funcionando corretamente e uma branch onde contem codigos novos que ainda passarao por testes antes de ir para a branch estavel e seguir para producao. Entao utilizamos o conceito de merge, que passa um codigo da branch instavel para estavel!
+</p>
